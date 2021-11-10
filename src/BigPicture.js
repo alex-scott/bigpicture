@@ -250,6 +250,7 @@ function initialize() {
 	displayVideo.setAttribute('playsinline', true)
 	displayVideo.controls = true
 	displayVideo.loop = true
+	displayVideo.setAttribute('controlsList', 'nodownload')
 
 	// create audio element
 	displayAudio = document[createEl]('audio')
